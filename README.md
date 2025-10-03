@@ -41,5 +41,3 @@ The initial results confirm the model exhibits **high bias (underfitting)**. The
 1.  **Increase Network Capacity:** The model is structurally too simple. I will **add more hidden layers** (e.g., a $\text{128-64-32}$ structure) and/or use **$\text{Dropout}$** for better generalization.
 2.  **Feature Engineering:** Explore generating **non-linear interaction terms** (e.g., $\text{BMI} \times \text{Age}$) to boost the model's explanatory power, since the pre-scaled features are limited.
 3.  **Hyperparameter Tuning:** Conduct a systematic search (e.g., $\text{Grid Search}$ or $\text{Bayesian Optimization}$) to find optimal values for the **learning rate**, **batch size**, and $\text{L2/L1}$ regularization to balance bias and variance.
-
-This structured approach will be used to transform the baseline model into a highly accurate $\text{Deep Learning Regressor}$.

@@ -1,0 +1,5 @@
+# Python packages required to run the Diabetes Regression model using TensorFlow
+pandas
+numpy
+scikit-learn
+tensorflow
